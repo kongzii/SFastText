@@ -7,9 +7,6 @@ let package = Package(
     name: "SFastText",
     products: [
         .library(
-            name: "CFastText",
-            targets: ["CFastText"]),
-        .library(
             name: "SFastText",
             targets: ["SFastText"]),
     ],
@@ -17,9 +14,9 @@ let package = Package(
     ],
     targets: [
         .target(
-            name: "CFastText"),
-        .target(
             name: "SFastText",
             dependencies: ["CFastText"]),
+        .target(
+            name: "CFastText"),
     ]
 )
