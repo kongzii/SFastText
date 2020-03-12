@@ -56,20 +56,5 @@ public class SFastText {
 
         return sentenceVector
     }
-
-    // public func getEmbedding(itos: [Int: String]) -> Embedding<Float> {
-    //     var embeddings = [Float](repeating: 0.0, count: dimension)
-
-    //     for index in 1 ... itos.count {
-    //         embeddings.append(contentsOf: [Float](self.vector(word: itos[index]))!)
-    //     }
-
-    //     let vocabularySize = 1 + itos.count
-
-    //     var embedding = Embedding<Float>(vocabularySize: vocabularySize, embeddingSize: self.dimension)
-    //     embedding.embeddings = Tensor<Float>(shape: TensorShape([vocabularySize, self.dimension]), scalars: embeddings)
-
-    //     return embedding
-    // }
 }
 
