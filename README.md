@@ -1,0 +1,2 @@
+# SFastText
+FastText for Swift
