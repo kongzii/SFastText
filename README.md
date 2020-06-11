@@ -1,3 +1,8 @@
+# Moved
+
+Please check https://github.com/kongzii/fastText for the latest version.
+As a fork of official fastText, the library will be able to provide the latest features more easily.
+
 # SFastText
 
 FastText wrapper for Swift with latest version.
